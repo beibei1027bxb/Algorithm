@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Manacher" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Morris" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bfprt找无序数组的第k小的值" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/kmp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/打表技巧和矩阵处理技巧" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/类似斐波那契数列的递归" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/线段树" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
