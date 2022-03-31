@@ -5,8 +5,19 @@ public class Rename_test {
 
         System.out.println(a+b);
         System.out.println(c+d);
+        System.out.println(a+b);
+        System.out.println(c+d);
+        System.out.println(a+b);
+        System.out.println(c+d);
+        System.out.println(a+b);
+        System.out.println(c+d);
+        System.out.println(a+b);
+        System.out.println(c+d);
+        System.out.println(a+b);
+        System.out.println(c+d);
         return a;
     }
+
 
 }
 
