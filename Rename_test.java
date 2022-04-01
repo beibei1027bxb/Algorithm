@@ -11,6 +11,10 @@ public class Rename_test {
 
         return a;
     }
+    public static void i(){
+        System.out.println("hello");
+        System.out.println("hello");
+    }
 
 
 
