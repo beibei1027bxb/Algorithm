@@ -23,7 +23,8 @@ public class refactor {
         }
         return result;
     }
-    public static void a(int a){
+    public static void a(){
+        int a=0;
         System.out.println(a);
     }
 
