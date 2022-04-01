@@ -24,6 +24,7 @@ public class refactor {
         return result;
     }
     public static synchronized void a(final int a,final int b){
+        @Deprecated
         final int c=0;
         System.out.println(a);
     }
