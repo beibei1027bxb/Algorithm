@@ -14,7 +14,7 @@ public class refactor {
         resultsOfPipeline.forEach(System.out::println);
     }
 
-    private static List<String> getFilterOutput(List<String> fruits,  String filter) {
+    private static List<String> getFilterOutput(String filter, List<String> fruits) {
         List<String> result = new ArrayList<>();
         for (String fruit : fruits) {
             if (!filter.equals(fruit)) {
@@ -23,9 +23,9 @@ public class refactor {
         }
         return result;
     }
-    public static synchronized void a(final int a,final int b){
-        @Deprecated
-        final int c=0;
+
+    public static synchronized void a(final int a, final int b) {
+        @Deprecated final int c = 0;
         System.out.println(a);
     }
 
