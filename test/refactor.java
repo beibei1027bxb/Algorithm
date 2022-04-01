@@ -23,7 +23,7 @@ public class refactor {
         }
         return result;
     }
-    public static void a(final int a,final int b){
+    public static synchronized void a(final int a,final int b){
         final int c=0;
         System.out.println(a);
     }
