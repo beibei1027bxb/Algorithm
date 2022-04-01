@@ -23,5 +23,8 @@ public class refactor {
         }
         return result;
     }
+    public static void a(int a){
+        System.out.println(a);
+    }
 
 }
