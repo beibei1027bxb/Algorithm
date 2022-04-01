@@ -24,8 +24,8 @@ public class refactor {
         return result;
     }
 
-    private static synchronized void a (final int a, final int b,final int d) throws Exception{
-        @Deprecated final int c = 0;
+    private static synchronized void a (final int a, final int w,final int d) throws Exception{
+        @Deprecated final int ee = 0;
         System.out.println(a);
     }
 
