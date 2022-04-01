@@ -14,7 +14,7 @@ public class refactor {
         resultsOfPipeline.forEach(System.out::println);
     }
 
-    private static List<String> getFilterOutput(List<String> fruits, @NotNull String filter) {
+    private static List<String> getFilterOutput(List<String> fruits,  String filter) {
         List<String> result = new ArrayList<>();
         for (String fruit : fruits) {
             if (!filter.equals(fruit)) {
