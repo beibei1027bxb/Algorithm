@@ -25,9 +25,13 @@ public class refactor {
     }
 
     private static synchronized int a (final int a, final long w,final int d) throws Exception{
-        @Deprecated final long ee = 0;
+        @Deprecated  long ee = 0;
         System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        if(ee==0) return 1;
         return 0;
+       
     }
 
 }
