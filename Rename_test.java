@@ -1,6 +1,6 @@
 public class Rename_test {
     //inline
-    private static int ssssss(int w,int c,int m){
+    private static int ssssss throws IOException(int w,int c,int m){
         int a=10,b=20,c=30,d=40;
         System.out.println(a+b);
         System.out.println(a+c);
@@ -14,7 +14,7 @@ public class Rename_test {
         }
         return a;
     }
-    public static void b(int a,int b,int c,int d){
+    public static void b throws IOException (int a,int b,int c,int d){
         System.out.println(a+c);
         System.out.println(b+d);
     }
