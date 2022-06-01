@@ -6,7 +6,7 @@ import java.io.FileReader;
 
 public class swj {
     public static void b  (int a,int b,int c,int d) throws FileNotFoundException {
-        @NotNull
+        
         int m=20;
         Thread thread=new Thread(()-> System.out.println("hello"));
     }
