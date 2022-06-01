@@ -9,6 +9,9 @@ public class swj {
     public static void b  (@NamedArg("123441241") int a, int b, int c, int d) throws FileNotFoundException {
 
         String fullname = "Robert King";
+        String[] names = fullname.split(" ", 1); // "1" means stop splitting after one space
+        String firstName = names[0];
+        String lastName = names[1];
         Thread thread=new Thread(()-> System.out.println("hello"));
     }
 }
