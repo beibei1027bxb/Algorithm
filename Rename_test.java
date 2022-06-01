@@ -14,7 +14,7 @@ public class Rename_test {
         }
         return a;
     }
-    public static void b throws IOException (int a,int b,int c,int d){
+    public static void b throws IOException (final int a,int b,int c,int d){
         System.out.println(a+c);
         System.out.println(b+d);
     }
