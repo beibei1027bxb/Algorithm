@@ -8,7 +8,7 @@ import java.io.FileReader;
 public class swj {
     public static void b  (@NamedArg("123441241") int a, int b, int c, int d) throws FileNotFoundException {
 
-        int m_begin=10,m_end=20;
+        String fullname = "Robert King";
         Thread thread=new Thread(()-> System.out.println("hello"));
     }
 }
