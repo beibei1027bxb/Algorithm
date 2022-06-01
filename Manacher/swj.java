@@ -6,9 +6,9 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 
 public class swj {
-    public static void b  (@NamedArg("123441241") int a, int b, int c, int d) throws FileNotFoundException {
+    public static void b  (@NamedArg("123441241") int a, int b, int c, int d,String first) throws FileNotFoundException {
 
-        String first = "Robert";
+
         String last="King";
         int m=10;
         int n=20;
