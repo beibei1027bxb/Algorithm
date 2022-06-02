@@ -6,10 +6,10 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 
 public class swj {
-    public static void b  (@NamedArg("123441241") int a, int b, int c, int d,String first) throws FileNotFoundException {
+    public static void b  (@NamedArg("123441241") int a, int bc,    int c,    int d,String first) throws FileNotFoundException {
 
 
-        String last="King";
+        String first1="King";
         int m=10;
         int n=20;
         Thread thread=new Thread(()-> System.out.println("hello"));
