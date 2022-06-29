@@ -1,13 +1,17 @@
 public class onCreate {
-    /**
-     * create the NavigationUI and handle the button.
+   /**
+     * create the NavigationUI.
      *
      * @param savedInstanceState
      */
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation_drawer);
-
+        detect();
+        
+        
+    }
+    private void detect(){
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -22,8 +26,6 @@ public class onCreate {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_navigation_drawer);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
-
-        handleFabButton.setup(mAppBarConfiguration,navController);
     }
    
 }
